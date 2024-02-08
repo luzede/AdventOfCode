@@ -1,7 +1,7 @@
 from inspect import getsourcefile
 from os.path import abspath, dirname, join
 
-current_folder = dirname(abspath(getsourcefile(lambda:10)))
+current_folder = dirname(abspath(getsourcefile(lambda:0)))
 
 calibration_doc = open(join(current_folder, "calibration_doc.txt"), "r")
 
