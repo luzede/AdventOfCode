@@ -1,3 +1,4 @@
+# I created a virtual environment in root folder using "python -m venv"
 .env
 Include
 Lib
