@@ -12,8 +12,8 @@ distance = int("".join(re.findall(r"\d+", document.readline())))
 i = 0
 j = int(time/2)
 while i < j:
-    m = int((i+j)/2)
-    if m*(time-m) > distance:
+    m = int((i + j)/2)
+    if m*(time - m) > distance:
         j = m
     else:
         i = m + 1
@@ -21,7 +21,7 @@ while i < j:
 k = int(time/2)
 l = time
 while k < l:
-    m = int((k+l)/2)
+    m = int((k + l)/2)
     if m*(time - m) > distance:
         k = m + 1
     else:
